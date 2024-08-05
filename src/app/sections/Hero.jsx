@@ -16,7 +16,7 @@ const Hero = () => {
 					className="pt-5"
 				/>
 				<p className="font-medium leading-7 text-lg pt-11 w-[450px] max-xl:w-auto">
-					Let's make your work more organize and easily using the Taskio
+					Let&apos;s make your work more organize and easily using the Taskio
 					Dashboard with many of the latest featuresin managing work every day.
 				</p>
 				<div className="flex gap-5 font-medium text-lg pt-16">
