@@ -9,7 +9,7 @@ const Button = ({
 
   return (
     <button
-      className={`h-auto rounded-md px-4 py-2 ${className}`}
+      className={`h-auto px-4 py-2 ${className}`}
       onClick={onClick}
     >
       {title || children}
