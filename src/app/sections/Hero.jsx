@@ -20,10 +20,10 @@ const Hero = () => {
 					Dashboard with many of the latest featuresin managing work every day.
 				</p>
 				<div className="flex gap-5 font-medium text-lg max-md:text-base max-sm:text-sm pt-16">
-					<Button className="py-5 px-7 max-sm:py-3 max-sm:px-5  rounded-full bg-custom-green text-[#FFFFFF] ">
+					<Button className="py-5 px-7 max-sm:py-1 max-sm:px-3  rounded-full bg-custom-green text-[#FFFFFF] ">
 						Try free trial
 					</Button>
-					<Button className="flex justify-center items-center gap-3">
+					<Button className="flex justify-center items-center gap-3 max-sm:gap-2">
 						<Image
 							src="/assets/icons/play.png"
 							alt="play"
