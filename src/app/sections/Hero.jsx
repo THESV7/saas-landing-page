@@ -6,7 +6,7 @@ const Hero = () => {
 		<div className="flex max-xl:flex-col-reverse max-xl:justify-center max-xl:items-center justify-between gap-40 max-xl:gap-20 w-full font-inter min-h-screen max-container my-20 max-xl:m-auto">
 			<div className="flex flex-col ">
 				<h1 className="font-bold text-7xl leading-[90px] max-xl:items-center">
-					We're here to Increase your Productivity
+        We&rsquo;re here to Increase your Productivity
 				</h1>
 				<Image
 					src="/assets/images/vector.png"
