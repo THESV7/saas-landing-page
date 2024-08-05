@@ -3,7 +3,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 const Nav = () => {
 	return (
-		<div className="py-8 px-32 max-md:px-8 bg-primary font-inter absolute z-10 w-full">
+		<div className="py-6 px-32 max-md:px-8 bg-primary font-inter sticky top-0 z-10 w-full h-[12vh]">
 			<nav className="flex items-center justify-between max-container">
 				<div className="flex justify-center items-center text-4xl leading-7 font-inter font-semibold text-custom-green py-2">
 					Biccas

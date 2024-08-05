@@ -6,7 +6,7 @@ export default function Home() {
 		<>
 			<main className="relative">
 				<Nav />
-				<section className="pt-[108px] py-8 px-32 max-md:px-8">
+				<section className="py-8 pt-4 px-32 max-md:px-8">
 					<Hero />
 				</section>
 			</main>
