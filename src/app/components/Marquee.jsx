@@ -28,12 +28,12 @@ const Marquee = () => {
                 className='flex flex-none gap-16 pr-16'>
                 {
                     logos.map(({ src, alt }) => (
-                        <Image src={src} alt={alt} className='flex-none h-8 w-auto' width={64} height={32} />
+                        <Image src={src} key={alt} alt={alt} className='flex-none h-8 w-auto' width={64} height={32} />
                     ))
                 }
                 {
-                    logos.map(({ src, alt }) => (
-                        <Image src={src} alt={alt} className='flex-none h-8 w-auto' width={64} height={32} />
+                    logos.map(({ src, alt },idx) => (
+                        <Image src={src} key={alt+idx} alt={alt} className='flex-none h-8 w-auto' width={64} height={32} />
                     ))
                 }
             </motion.div>
